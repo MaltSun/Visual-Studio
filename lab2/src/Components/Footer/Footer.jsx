@@ -1,6 +1,6 @@
 import React from 'react'
-import phone from "../Images/Phone.png";
-
+import phone from "../../Images/Phone.png";
+import "./Footer.css"
 export default function Footer(props) {
   return (
     <div className="footer">
@@ -10,9 +10,9 @@ export default function Footer(props) {
       <img src={phone}></img>
     </div>
     <ul className="divFooter">
-      <a className="link">{props.first}</a>
-      <a className="link">{props.second}</a>
-      <a className="link">{props.third}</a>
+      <a>{props.first}</a>
+      <a>{props.second}</a>
+      <a>{props.third}</a>
     </ul>
   </div>
   )
