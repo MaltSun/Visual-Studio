@@ -7,3 +7,14 @@
     background-color: #f5ede7;
     width: 100%;
 }
+.CatalogBlock {
+    max-width: 1440px;
+    height: auto;
+    padding: 90px 1px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
