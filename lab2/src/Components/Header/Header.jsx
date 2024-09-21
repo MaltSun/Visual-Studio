@@ -1,14 +1,14 @@
 import React from 'react'
-import logo from "../Images/Logo.png";
-
+import logo from "../../Images/Logo.png";
+import "./Header.css"
 export default function Header(props) {
   return (
     <div className="header ">
-        <img className="disappearSecond" src={logo}></img>
+        <img className="disappear" src={logo}></img>
         <div className="list">
-          <p className="listA">{props.first}</p>
-          <p className="listA">{props.second}</p>
-          <p className="listA">{props.third}</p>
+          <p>{props.first}</p>
+          <p>{props.second}</p>
+          <p>{props.third}</p>
         </div>
       </div>
   )
