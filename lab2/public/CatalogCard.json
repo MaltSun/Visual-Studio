@@ -1,0 +1,32 @@
+[
+    {
+        "photo":"../../Images/almondCroissant.png",
+        "name":"ALL-BUTTER CROISSANT",
+        "price":"KIT OF 6 - 11.50"
+    },
+    {
+        "photo":"../../Images/painAuxRaisins.png",
+        "name":"ALMOND CROISSANT",
+        "price":"KIT OF 6 - 13.50"
+    },
+    {
+        "photo":"../../Images/raspberryDanish.png",
+        "name":"RASPBERRY DANISH",
+        "price":"KIT OF 5 - 13.50"
+    },
+    {
+        "photo":"../../Images/painAuxRaisins.png",
+        "name":"PAIN AUX RASINS",
+        "price":"KIT OF 6 - 13.50"
+    },
+    {
+        "photo":"../../Images/pieAuChocolate.png",
+        "name":"PI AU CHOCOLATE",
+        "price":"KIT OF 6 - 13.50"
+    },
+    {
+        "photo":"../../Images/almondCroissant.png",
+        "name":"APRICOT DANISH",
+        "price":"KIT OF 4 - 11.50"
+    }
+]
