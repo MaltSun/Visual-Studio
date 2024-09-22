@@ -8,7 +8,7 @@
     width: 100%;
 }
 .CatalogBlock {
-    max-width: 1440px;
+    width: 90%;
     height: auto;
     padding: 90px 1px;
     gap: 24px;
