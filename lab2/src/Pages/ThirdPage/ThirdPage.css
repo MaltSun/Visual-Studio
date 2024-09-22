@@ -1,0 +1,45 @@
+.page {
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ede7;
+  width: 100%;
+}
+.card {
+  margin: 40px;
+}
+.mapDiv {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
+  gap: 60px;
+}
+.disappear {
+  display: flex;
+}
+
+@media screen and (max-width: 1260px) {
+  .disappear {
+    display: none;
+  }
+  .mainBlock {
+    width: 95%;
+    padding: 5px;
+    height: auto;
+    justify-content: center;
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .mainBlock {
+    gap: 80px;
+  }
+}
