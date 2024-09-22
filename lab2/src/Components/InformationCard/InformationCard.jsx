@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./InformationCard.css";
 
-export default function InformationCard() {
+export default function InformationCard(props) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/InformationCard.json")
+    fetch(props.data)
       .then((response) => response.json())
       .then((jsonData) => setData(jsonData))
       .catch((error) => console.error("Error fetching data:", error));
