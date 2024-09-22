@@ -1,0 +1,9 @@
+.error{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:rgb(188, 133, 96);
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
