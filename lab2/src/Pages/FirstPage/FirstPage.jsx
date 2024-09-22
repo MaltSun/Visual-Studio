@@ -11,13 +11,15 @@ const FirstPage = () => {
       <MainBlock />
       <div className="CatalogBlock">
         <h1>Shop pastry kits</h1>
-        <CatalogCard  />
+        <CatalogCard />
       </div>
       <Footer
-        first="INFORMATION"
-        second="LOCATION"
-        third="CATALOG"
-        forth="HOW WORK"
+        first="../second"
+        one="INFORMATION"
+        two="LOCATION"
+        second="../third"
+        three="CATALOG"
+        third="../ErrorPage"
       />
     </div>
   );

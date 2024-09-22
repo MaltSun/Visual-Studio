@@ -35,11 +35,13 @@ const ThirdPage = () => {
         </div>
         <InformationCard className="card" data="./InformationFor3.json" />
         <Footer
-          first="INFORMATION"
-          second="LOCATION"
-          third="CATALOG"
-          forth="HOW WORK"
-        />
+        first="../second"
+        one="INFORMATION"
+        two="LOCATION"
+        second="../ErrorPage"
+        three="CATALOG"
+        third="../first"
+      />
       </div>
     </>
   );

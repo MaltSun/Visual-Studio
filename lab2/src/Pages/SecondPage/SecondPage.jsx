@@ -22,11 +22,13 @@ const SecondPage = () => {
         <h1>Make an order</h1>
         <InformationCard data="/InformationCard.json"/>
         <Footer
-          first="INFORMATION"
-          second="LOCATION"
-          third="CATALOG"
-          forth="HOW WORK"
-        />
+        first="../ErrorPage"
+        one="INFORMATION"
+        two="LOCATION"
+        second="../third"
+        three="CATALOG"
+        third="../first"
+      />
       </div>
     </>
   );
