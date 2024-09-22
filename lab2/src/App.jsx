@@ -11,14 +11,15 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        <Route path='' element={<FirstPage/>}></Route>
-          <Route path='second' element={<SecondPage/>}></Route>
-          <Route path='third' element={<ThirdPage/>}></Route>
-          <Route path='*' elemet={<ErrorPage/>}></Route>
+          <Route path='/first' element={<FirstPage/>}></Route>
+          <Route path='/second' element={<SecondPage/>}></Route>
+          <Route path='/third' element={<ThirdPage/>}></Route>
+          <Route path='*' element={<ErrorPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
   )
 }
 
-export default App
+export default App;
+ 
