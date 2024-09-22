@@ -1,6 +1,7 @@
 import React from 'react'
 import phone from "../../Images/Phone.png";
 import "./Footer.css"
+import { Link } from 'react-router-dom';
 export default function Footer(props) {
   return (
     <div className="footer">
@@ -10,9 +11,9 @@ export default function Footer(props) {
       <img src={phone}></img>
     </div>
     <ul className="divFooter">
-      <a>{props.first}</a>
-      <a>{props.second}</a>
-      <a>{props.third}</a>
+      <Link to={props.first}>{props.one}</Link>
+      <Link to={props.second}>{props.two}</Link>
+      <Link to={props.third}>{props.three}</Link>
     </ul>
   </div>
   )
