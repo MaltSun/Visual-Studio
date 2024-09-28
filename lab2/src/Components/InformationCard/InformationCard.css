@@ -1,6 +1,43 @@
-.cards {
-  width: 100%;
+.InformationCards {
+  width: 90%;
+  margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.InformationCard {
+  display: flex;
+  max-width: 390px;
+  padding: 30px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 2px solid #000;
+}
+
+.InformationCardH1 {
+  height: 100px;
+  color: #000;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 68.55px; /* 124.636% */
+}
+.InformationCardP {
+  color: #000;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  width: 90%;
+  text-align: justify;
 }

@@ -12,12 +12,12 @@ export default function InformationCard(props) {
   }, []);
 
   return (
-    <div className="cards">
+    <div className="InformationCards">
       {data.map((item, index) => (
-        <div className="card" key={index}>
+        <div className="InformationCard" key={index}>
           <img src={item.photo} alt={item.name}></img>
-          <h3>{item.name}</h3>
-          <p>{item.text}</p>
+          <h3 className="InformationCardH1">{item.name}</h3>
+          <p className="InformationCardP">{item.text}</p>
         </div>
       ))}
     </div>

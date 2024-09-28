@@ -33,14 +33,14 @@ const ThirdPage = () => {
           </div>
           <div id="yandexMap" style={{ width: "500px", height: "316px" }}></div>
         </div>
-        <InformationCard className="card" data="./InformationFor3.json" />
+        <InformationCard data="./InformationFor3.json" />
         <Footer
         first="../second"
         one="INFORMATION"
         two="LOCATION"
         second="../ErrorPage"
         three="CATALOG"
-        third="../first"
+        third="../"
       />
       </div>
     </>
