@@ -27,7 +27,7 @@ const SecondPage = () => {
         two="LOCATION"
         second="../third"
         three="CATALOG"
-        third="../first"
+        third="/"
       />
       </div>
     </>

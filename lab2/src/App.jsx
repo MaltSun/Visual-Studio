@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/first' element={<FirstPage/>}></Route>
+          <Route path='/' element={<FirstPage/>}></Route>
           <Route path='/second' element={<SecondPage/>}></Route>
           <Route path='/third' element={<ThirdPage/>}></Route>
           <Route path='*' element={<ErrorPage/>}></Route>

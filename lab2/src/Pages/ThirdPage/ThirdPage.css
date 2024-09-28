@@ -7,9 +7,7 @@
   background-color: #f5ede7;
   width: 100%;
 }
-.card {
-  margin: 40px;
-}
+
 .mapDiv {
   display: flex;
   flex-direction: column;
