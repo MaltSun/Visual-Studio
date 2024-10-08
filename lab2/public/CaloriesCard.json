@@ -1,0 +1,50 @@
+[
+    {
+        "photo": "../../Images/almondCroissant.png",
+        "name": "ALL-BUTTER CROISSANT",
+        "carbs":"35",
+        "fats": "10",
+        "protein": "5",
+        "calories": "350"
+    },
+    {
+        "photo": "../../Images/painAuxRaisins.png",
+        "name": "ALMOND CROISSANT",
+        "carbs":"24",
+        "fats": "8",
+        "protein": "5",
+        "calories": "350"
+    },
+    {
+        "photo": "../../Images/raspberryDanish.png",
+        "name": "RASPBERRY DANISH",
+        "carbs":"35",
+        "fats": "17",
+        "protein": "8",
+        "calories": "350"
+    },
+    {
+        "photo": "../../Images/painAuxRaisins.png",
+        "name": "PAIN AUX RAISINS",
+        "carbs":"35",
+        "fats": "1",
+        "protein": "50",
+        "calories": "750"
+    },
+    {
+        "photo": "../../Images/pieAuChocolate.png",
+        "name": "PI AU CHOCOLATE",
+        "carbs":"15",
+        "fats": "10",
+        "protein": "45",
+        "calories": "350"
+    },
+    {
+        "photo": "../../Images/almondCroissant.png",
+        "name": "APRICOT DANISH",
+        "carbs":"35",
+        "fats": "10",
+        "protein": "5",
+        "calories": "380"
+    }
+]
