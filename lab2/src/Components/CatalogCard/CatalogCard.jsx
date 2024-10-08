@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./CatalogCard.css";
 import PopupComponent from "../Popup/Popup";
+import { Rating, Button } from "@mui/material";
 
 export default function CatalogCard() {
   const [data, setData] = useState([]);
@@ -36,36 +37,40 @@ export default function CatalogCard() {
     <div className="section">
       <div className="cards">
         {data.map((item, index) => (
-          <div className="card" key={index}>
-            <img src={item.photo} alt={item.name}></img>
-            <h3>{item.name}</h3>
-            <p>{item.price}</p>
-            <PopupComponent
-              name={item.name}
-              price={item.price}
-              text={item.description}
-            />
-            <button className="button" onClick={() => deleteItem(index)}>
-              Delete
-            </button>
-            <button
-              className="button"
-              onClick={() =>
-                editItem(index, {
-                  ...item,
-                  name: "NEW ITEM",
-                  price: "NEW PRICE",
-                })
-              }
-            >
-              Edit
-            </button>
+          <div className="" key={index}>
+            <img className="disappearSecond" src={item.photo} alt={item.name}></img>
+            <div className="ratingBlock">
+              <div className="card">
+                <h3>{item.name}</h3>
+                <p>{item.price}</p>
+
+                <PopupComponent
+                  name={item.name}
+                  price={item.price}
+                  text={item.description}
+                />
+                <Button variant="contained" onClick={() => deleteItem(index)}>Delete</Button>
+                  <Button
+                  variant="contained"
+                  onClick={() =>
+                    editItem(index, {
+                      ...item,
+                      name: "NEW ITEM",
+                      price: "NEW PRICE",
+                    })
+                  }
+                >
+                  Edit
+                </Button>
+              </div>
+              <Rating className="rating"></Rating>
+            </div>
           </div>
         ))}
       </div>
-      <button className="button" onClick={addItem}>
+      <Button variant="contained" onClick={addItem}>
         Add New Item
-      </button>
+      </Button>
     </div>
   );
 }
