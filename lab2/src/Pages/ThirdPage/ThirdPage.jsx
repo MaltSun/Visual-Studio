@@ -31,7 +31,7 @@ const ThirdPage = () => {
               our Valrhona chocolate batons.
             </p>
           </div>
-          <div id="yandexMap" style={{ width: "500px", height: "316px" }}></div>
+          <div className="mapImage" id="yandexMap" ></div>
         </div>
         <InformationCard data="./InformationFor3.json" />
         <Footer

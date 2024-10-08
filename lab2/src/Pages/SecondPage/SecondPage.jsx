@@ -20,7 +20,7 @@ const SecondPage = () => {
           </div>
         </div>
         <h1>Make an order</h1>
-        <InformationCard data="/InformationCard.json"/>
+        <InformationCard  data="/InformationCard.json"/>
         <Footer
         first="../ErrorPage"
         one="INFORMATION"

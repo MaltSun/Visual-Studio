@@ -15,7 +15,7 @@ export default function InformationCard(props) {
     <div className="InformationCards">
       {data.map((item, index) => (
         <div className="InformationCard" key={index}>
-          <img src={item.photo} alt={item.name}></img>
+          <img className="InfrormationImage" src={item.photo} alt={item.name}></img>
           <h3 className="InformationCardH1">{item.name}</h3>
           <p className="InformationCardP">{item.text}</p>
         </div>

@@ -1,6 +1,7 @@
 .InformationCards {
   width: 90%;
   margin-top: 20px;
+  gap: 20px 20px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -40,4 +41,12 @@
   line-height: 28px; /* 140% */
   width: 90%;
   text-align: justify;
+}
+@media screen and (max-width: 530px) {
+  .InformationCard{
+    width: 90%;
+  }
+  .InfrormationImage{
+    display: none;
+  }
 }

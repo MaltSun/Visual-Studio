@@ -7,7 +7,9 @@
   background-color: #f5ede7;
   width: 100%;
 }
-
+.mapImage{
+  height: 320px;
+}
 .mapDiv {
   display: flex;
   flex-direction: column;
@@ -40,4 +42,8 @@
   .mainBlock {
     gap: 80px;
   }
+  .map{
+    flex-direction: column;
+  }
+ 
 }

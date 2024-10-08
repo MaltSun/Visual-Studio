@@ -1,55 +1,54 @@
-.page{
-    padding: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5ede7;
-    width: 100%;
+.page {
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5ede7;
+  width: 100%;
 }
 .mainBlock {
-    display: flex;
-    max-width: 1440px;
-    height: 574.1px;
-    padding: 20px 27.68px 24px 27.63px;
-    gap: 5%;
-    padding: 40px;
-  }
-  .divTextMainBlock {
-    width: 383.779px;
-    font-family: "Times New Roman";
-    font-style: normal;
-  }
- .mainH1 {
-    font-size: 78px;
-    font-weight: 400;
-    line-height: 90px;
-  }
-  .mainP {
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.01px; /* 155.611% */
-  }
+  display: flex;
+  max-width: 1440px;
+  height: 574.1px;
+  padding: 20px 27.68px 24px 27.63px;
+  gap: 5%;
+  padding: 40px;
+}
+.divTextMainBlock {
+  width: 383.779px;
+  font-family: "Times New Roman";
+  font-style: normal;
+}
+.mainH1 {
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 90px;
+}
+.mainP {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.01px; /* 155.611% */
+}
+.disappear {
+  display: flex;
+}
+
+@media screen and (max-width: 1260px) {
   .disappear {
-    display: flex;
+    display: none;
   }
-  
-  @media screen and (max-width: 1260px) {
-    .disappear {
-      display: none;
-    }
-    .mainBlock {
-      width: 95%;
-      padding: 5px;
-      height: auto;
-      justify-content: center;
-      gap: 60px;
-    }
+  .mainBlock {
+    width: 95%;
+    padding: 5px;
+    height: auto;
+    justify-content: center;
+    gap: 60px;
   }
-  @media screen and (max-width: 530px) {
-    .mainBlock {
-      gap: 80px;
-    }
+}
+@media screen and (max-width: 530px) {
+  .mainBlock {
+    gap: 80px;
   }
-  
+}
