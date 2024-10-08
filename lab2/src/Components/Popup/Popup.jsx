@@ -2,19 +2,18 @@ import React from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import "./Popup.css";
+import { Button } from "@mui/material";
+//import Slider from "@mui/material/Slider"
+//import DenseTable from "../DenseTable/DenseTable";
 const PopupComponent = ({ name, price, text }) => {
   return (
     <Popup
-      trigger={<button className="button">Information</button>}
+      trigger={<Button variant="contained">Information</Button>}
       position="top left"
       offsetY={20}
       arrow={false}
     >
-      <div>
-        <h1>{name}</h1>
-        <p>{text}</p>
-        <h3>{price}</h3>
-      </div>
+      <div></div>
     </Popup>
   );
 };
