@@ -34,7 +34,16 @@
 .disappear {
   display: flex;
 }
-
+.reviewSection{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 70px;
+}
+.direction{
+  display: flex;
+  flex-direction: row;
+}
 @media screen and (max-width: 1260px) {
   .disappear {
     display: none;

@@ -1,8 +1,11 @@
 import "./SecondPage.css";
+import {Button } from "@mui/material";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import mainPhoto from "../../Images/MainPhoto2.png"
-import InformationCard from "../../Components/InformationCard/InformationCard";
+import mainPhoto from "../../Images/MainPhoto2.png";
+import Review from "../../Review/Review";
+import PollResults from "../../Components/PollResults/PollResults";
+import InputWithIcon from "../../Components/InputWithIcon/InputWithIcon";
 const SecondPage = () => {
   return (
     <>
@@ -19,16 +22,25 @@ const SecondPage = () => {
             </p>
           </div>
         </div>
-        <h1>Make an order</h1>
-        <InformationCard  data="/InformationCard.json"/>
+        <section className="reviewSection">
+          <Review></Review>
+          <div>
+            <PollResults></PollResults>
+            <div className="direction">
+              <InputWithIcon />
+              <Button width="120px" variant="contained" onClick={() =>alert("Отзыв отравлен")}>Send</Button>
+            </div>
+          </div>
+        </section>
+
         <Footer
-        first="../ErrorPage"
-        one="INFORMATION"
-        two="LOCATION"
-        second="../third"
-        three="CATALOG"
-        third="/"
-      />
+          first="../ErrorPage"
+          one="INFORMATION"
+          two="LOCATION"
+          second="../third"
+          three="CATALOG"
+          third="/"
+        />
       </div>
     </>
   );
