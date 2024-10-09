@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./CatalogCard.css";
 import PopupComponent from "../Popup/Popup";
-import { Rating, Button } from "@mui/material";
+import { Rating, Button, Fab} from "@mui/material";
+import AddIcon from '@mui/icons-material/Add';
 
 export default function CatalogCard() {
   const [data, setData] = useState([]);
@@ -38,7 +39,11 @@ export default function CatalogCard() {
       <div className="cards">
         {data.map((item, index) => (
           <div className="" key={index}>
-            <img className="disappearSecond" src={item.photo} alt={item.name}></img>
+            <img
+              className="disappearSecond"
+              src={item.photo}
+              alt={item.name}
+            ></img>
             <div className="ratingBlock">
               <div className="card">
                 <h3>{item.name}</h3>
@@ -49,8 +54,10 @@ export default function CatalogCard() {
                   price={item.price}
                   text={item.description}
                 />
-                <Button variant="contained" onClick={() => deleteItem(index)}>Delete</Button>
-                  <Button
+                <Button variant="contained" onClick={() => deleteItem(index)}>
+                  Delete
+                </Button>
+                <Button
                   variant="contained"
                   onClick={() =>
                     editItem(index, {
@@ -68,9 +75,10 @@ export default function CatalogCard() {
           </div>
         ))}
       </div>
-      <Button variant="contained" onClick={addItem}>
-        Add New Item
-      </Button>
+      <Fab color="secondary" aria-label="add" onClick={addItem}>
+        <AddIcon/>
+      </Fab>
+    
     </div>
   );
 }
