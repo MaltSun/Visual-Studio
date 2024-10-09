@@ -1,11 +1,12 @@
 import "./SecondPage.css";
-import {Button } from "@mui/material";
+import { Button } from "@mui/material";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import mainPhoto from "../../Images/MainPhoto2.png";
 import Review from "../../Review/Review";
 import PollResults from "../../Components/PollResults/PollResults";
 import InputWithIcon from "../../Components/InputWithIcon/InputWithIcon";
+import Profile from "../../Components/Profile/Profile";
 const SecondPage = () => {
   return (
     <>
@@ -28,11 +29,17 @@ const SecondPage = () => {
             <PollResults></PollResults>
             <div className="direction">
               <InputWithIcon />
-              <Button width="120px" variant="contained" onClick={() =>alert("Отзыв отравлен")}>Send</Button>
+              <Button
+                width="120px"
+                variant="contained"
+                onClick={() => alert("Отзыв отравлен")}
+              >
+                Send
+              </Button>
             </div>
           </div>
         </section>
-
+        <Profile></Profile>
         <Footer
           first="../ErrorPage"
           one="INFORMATION"
