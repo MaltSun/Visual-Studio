@@ -7,3 +7,6 @@
 5. Avatar
 6. InputWithIcon
 7. PollResults
+8. ButtonGroup
+9. BasicSelect
+10. RadioGroup
