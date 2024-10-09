@@ -1,0 +1,19 @@
+.InputName{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profileSection, .switch, .save{
+    display: flex;
+    flex-direction: row;
+}
+.photoPhoto, .Age{
+    flex-direction: column;
+    margin: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+.profileSection, .textSection{
+    gap: 20px;
+}
